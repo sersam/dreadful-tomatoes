@@ -1,0 +1,10 @@
+.home {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: calc(1rem + 1.5vmin);
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.downloadButtons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw 0;
+}
+
+.downloadButtons > * {
+  margin: 0 5vw;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 2vw;
+}

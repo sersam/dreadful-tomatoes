@@ -1,0 +1,13 @@
+.datePicker {
+  flex: 1;
+  background-color: white;
+  border-radius: 4px;
+  min-width: 200px;
+}
+
+@media (max-width: 480px) {
+  .datePicker {
+    margin: 1rem;
+    width: 90vw;
+  }
+}

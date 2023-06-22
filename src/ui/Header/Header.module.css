@@ -1,0 +1,63 @@
+.dreadfulLogo {
+  margin: 1rem 5rem;
+  width: 15rem;
+  cursor: pointer;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.logoHeader {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.filterHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: red;
+}
+
+.filterHeader > .inputFilter {
+    margin: 1rem;
+}
+
+.inputFilter {
+  background-color: white;
+  width: 90vw;
+  flex: 3;
+}
+
+
+.headerRight {
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+}
+
+@media (max-width: 480px) {
+  .filterHeader {
+    display: flex;
+    flex-direction: column;
+  }
+  .logoHeader {
+    flex-direction: column;
+  }
+  .dreadfulLogo {
+    display: flex;
+    width: 65vw;
+    justify-content: center;
+  }
+  .headerRight {
+    justify-content: center;
+  }
+}
